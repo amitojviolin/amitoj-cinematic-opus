@@ -18,27 +18,27 @@ export function Contact() {
           the inbox is open.
         </p>
 
-        <div className="reveal mt-16 grid grid-cols-1 gap-4 sm:grid-cols-3">
+        <div className="reveal mt-16 grid grid-cols-1 gap-4 sm:grid-cols-2">
+          <ContactCard
+            label="Email"
+            value="amitojas44@gmail.com"
+            href="mailto:amitojas44@gmail.com"
+          />
+          <ContactCard
+            label="Email"
+            value="amitojas44@gmail.com"
+            href="mailto:amitojas44@gmail.com"
+          />
           <ContactCard
             label="Instagram"
             value="@amitojviolin"
             href="https://instagram.com/amitojviolin"
           />
-          <ContactCard
-            label="Year"
-            value="© 2026"
-            href="#"
-          />
-          <ContactCard
-            label="Contact"
-            value="© 2026"
-            href="#"
-          />
         </div>
 
         <div className="reveal mt-16">
           <div className="inline-flex items-center gap-3 rounded-full bg-gold px-10 py-5 text-sm uppercase tracking-[0.25em] text-primary-foreground">
-            © 2026
+            amitojas44@gmail.com
           </div>
         </div>
       </div>
