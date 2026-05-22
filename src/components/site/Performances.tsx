@@ -1,17 +1,9 @@
-import violin from "@/assets/violin-closeup.jpg";
-import stage from "@/assets/stage.jpg";
-import hands from "@/assets/hands.jpg";
-import bow from "@/assets/bow.jpg";
-import crowd from "@/assets/crowd.jpg";
-import studio from "@/assets/studio.jpg";
-
 const perfs = [
-  { img: stage, tag: "Live", title: "Cinematic Concert Set", meta: "Stage · 2024" },
-  { img: violin, tag: "Classical", title: "Raga Yaman - Alaap", meta: "Hindustani · Studio" },
-  { img: hands, tag: "Cinematic", title: "Pirates of the Caribbean", meta: "Cover · Orchestral" },
-  { img: crowd, tag: "Bollywood", title: "Tum Hi Ho - Reimagined", meta: "Live · 2024" },
-  { img: bow, tag: "Fusion", title: "East Meets West", meta: "Original · Single" },
-  { img: studio, tag: "Production", title: "Studio Sessions Vol. I", meta: "Original · 2024" },
+  { src: "/videos/tiny_desk.mp4", tag: "Live", title: "Tiny Desk", meta: "Live Session" },
+  { src: "/videos/India_habitat_centre.mp4", tag: "Concert", title: "India Habitat Centre", meta: "Stage · Live" },
+  { src: "/videos/The_piano_man.mp4", tag: "Live", title: "The Piano Man", meta: "Live · Venue" },
+  { src: "/videos/shred_collab.mp4", tag: "Collab", title: "Shred Collab", meta: "Collaboration" },
+  { src: "/videos/kaha_oc.mp4", tag: "Original", title: "Kaha", meta: "Original Composition" },
 ];
 
 export function Performances() {
@@ -36,25 +28,18 @@ export function Performances() {
           {perfs.map((p) => (
             <article
               key={p.title}
-              className="reveal group relative aspect-[4/5] cursor-pointer overflow-hidden rounded-sm hover-lift"
+              className="reveal group relative aspect-[4/5] overflow-hidden rounded-sm hover-lift"
             >
-              <img
-                src={p.img}
-                alt={p.title}
-                loading="lazy"
-                className="absolute inset-0 h-full w-full object-cover transition-transform duration-[1500ms] group-hover:scale-110"
+              <video
+                src={p.src}
+                muted
+                loop
+                playsInline
+                controls
+                preload="metadata"
+                className="absolute inset-0 h-full w-full object-cover"
               />
-              <div className="absolute inset-0 bg-gradient-to-t from-background via-background/30 to-transparent" />
-              <div className="absolute inset-0 bg-gold/0 transition-colors duration-700 group-hover:bg-gold/10" />
-
-              {/* play icon */}
-              <div className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 opacity-0 transition-all duration-700 group-hover:opacity-100">
-                <div className="flex h-20 w-20 items-center justify-center rounded-full border border-gold bg-background/40 backdrop-blur-md">
-                  <span className="ml-1 text-2xl text-gold">▶</span>
-                </div>
-              </div>
-
-              <div className="absolute inset-x-0 bottom-0 p-6">
+              <div className="pointer-events-none absolute inset-x-0 bottom-0 bg-gradient-to-t from-background via-background/40 to-transparent p-6">
                 <span className="inline-block rounded-full border border-gold/40 bg-background/50 px-3 py-1 text-[10px] uppercase tracking-[0.25em] text-gold backdrop-blur">
                   {p.tag}
                 </span>
@@ -65,17 +50,6 @@ export function Performances() {
               </div>
             </article>
           ))}
-        </div>
-
-        <div className="reveal mt-16 text-center">
-          <a
-            href="https://instagram.com/amitojviolin"
-            target="_blank"
-            rel="noreferrer"
-            className="inline-flex items-center gap-3 text-sm uppercase tracking-[0.3em] text-gold transition-all hover:gap-5"
-          >
-            Watch more on Instagram →
-          </a>
         </div>
       </div>
     </section>
