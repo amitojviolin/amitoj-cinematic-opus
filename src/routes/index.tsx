@@ -4,7 +4,7 @@ import { Hero } from "@/components/site/Hero";
 import { About } from "@/components/site/About";
 import { Performances } from "@/components/site/Performances";
 import { Achievements } from "@/components/site/Achievements";
-import { Social } from "@/components/site/Social";
+
 import { Contact } from "@/components/site/Contact";
 import { Footer } from "@/components/site/Footer";
 import { useReveal } from "@/hooks/use-reveal";
@@ -47,7 +47,7 @@ function Index() {
         <About />
         <Performances />
         <Achievements />
-        <Social />
+        
         <Contact />
       </main>
       <Footer />
