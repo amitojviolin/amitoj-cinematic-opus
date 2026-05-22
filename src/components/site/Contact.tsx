@@ -25,9 +25,9 @@ export function Contact() {
             href="https://instagram.com/amitojviolin"
           />
           <ContactCard
-            label="Inquiries"
-            value="Connect!"
-            href="mailto:amitoj@violin.in"
+            label="Year"
+            value="© 2026"
+            href="#"
           />
           <ContactCard
             label="WhatsApp"
@@ -38,7 +38,7 @@ export function Contact() {
 
         <div className="reveal mt-16">
           <div className="inline-flex items-center gap-3 rounded-full bg-gold px-10 py-5 text-sm uppercase tracking-[0.25em] text-primary-foreground">
-            Connect!
+            © 2026
           </div>
         </div>
       </div>
