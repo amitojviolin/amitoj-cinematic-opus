@@ -5,7 +5,6 @@ const links = [
   { href: "#performances", label: "Performances" },
   { href: "#stage", label: "Stage" },
   { href: "#services", label: "Bookings" },
-  { href: "#gallery", label: "Gallery" },
   { href: "#contact", label: "Contact" },
 ];
 
