@@ -10,7 +10,7 @@ export function Footer() {
         </div>
         <div className="divider-gold hidden h-px w-32 md:block" />
         <p className="text-xs uppercase tracking-[0.3em] text-muted-foreground">
-          Connect!
+          7906694211
         </p>
       </div>
     </footer>
