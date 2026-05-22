@@ -14,8 +14,6 @@ const perfs = [
   { img: studio, tag: "Production", title: "Studio Sessions Vol. I", meta: "Original · 2024" },
 ];
 
-const categories = ["All", "Bollywood", "Classical", "Cinematic", "Live", "Fusion"];
-
 export function Performances() {
   return (
     <section id="performances" className="relative overflow-hidden bg-gradient-to-b from-background via-card to-background py-32 md:py-44">
@@ -32,21 +30,6 @@ export function Performances() {
           <p className="mt-6 text-base text-muted-foreground">
             A curated reel of moments - from candlelit classical sets to roaring stage finales.
           </p>
-        </div>
-
-        <div className="reveal mt-14 flex flex-wrap items-center justify-center gap-2">
-          {categories.map((c, i) => (
-            <button
-              key={c}
-              className={`rounded-full border px-5 py-2 text-xs uppercase tracking-[0.2em] transition-all ${
-                i === 0
-                  ? "border-gold bg-gold/10 text-gold"
-                  : "border-border text-muted-foreground hover:border-gold/50 hover:text-gold"
-              }`}
-            >
-              {c}
-            </button>
-          ))}
         </div>
 
         <div className="mt-16 grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3">
