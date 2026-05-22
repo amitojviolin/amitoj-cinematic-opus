@@ -1,26 +1,62 @@
 import { createFileRoute } from "@tanstack/react-router";
+import { Nav } from "@/components/site/Nav";
+import { Hero } from "@/components/site/Hero";
+import { About } from "@/components/site/About";
+import { Performances } from "@/components/site/Performances";
+import { Stage } from "@/components/site/Stage";
+import { Achievements } from "@/components/site/Achievements";
+import { Services } from "@/components/site/Services";
+import { Gallery } from "@/components/site/Gallery";
+import { Social } from "@/components/site/Social";
+import { Contact } from "@/components/site/Contact";
+import { Footer } from "@/components/site/Footer";
+import { useReveal } from "@/hooks/use-reveal";
 
 export const Route = createFileRoute("/")({
+  head: () => ({
+    meta: [
+      { title: "Amitoj Singh — Violinist · Performer · Music Producer" },
+      {
+        name: "description",
+        content:
+          "Amitoj Singh is a violinist blending Hindustani classical, Bollywood and cinematic music. Live performances, studio sessions and bookings.",
+      },
+      { property: "og:title", content: "Amitoj Singh — Cinematic Violinist" },
+      {
+        property: "og:description",
+        content:
+          "Blending emotion, storytelling and cinematic sound through the violin.",
+      },
+    ],
+    links: [
+      { rel: "preconnect", href: "https://fonts.googleapis.com" },
+      { rel: "preconnect", href: "https://fonts.gstatic.com", crossOrigin: "" },
+      {
+        rel: "stylesheet",
+        href: "https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,400;1,500&family=Inter:wght@300;400;500;600&display=swap",
+      },
+    ],
+  }),
   component: Index,
 });
 
-// IMPORTANT: Replace this placeholder. For sites with multiple pages (About, Services, Contact, etc.),
-// create separate route files (about.tsx, services.tsx, contact.tsx) — don't put all pages in this file.
-function PlaceholderIndex() {
+function Index() {
+  useReveal();
   return (
-    <div
-      className="flex min-h-screen items-center justify-center"
-      style={{ backgroundColor: "#fcfbf8" }}
-    >
-      <img
-        data-lovable-blank-page-placeholder="REMOVE_THIS"
-        src="https://cdn.gpteng.co/blank-app-v1.svg"
-        alt="Your app will live here!"
-      />
+    <div className="dark min-h-screen bg-background text-foreground">
+      <Nav />
+      <main>
+        <Hero />
+        <About />
+        <Performances />
+        <Stage />
+        <Achievements />
+        <Services />
+        <Gallery />
+        <Social />
+        <Contact />
+      </main>
+      <Footer />
     </div>
   );
-}
-
-function Index() {
-  return <PlaceholderIndex />;
 }
