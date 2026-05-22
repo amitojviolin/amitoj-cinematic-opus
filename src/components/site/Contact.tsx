@@ -38,7 +38,7 @@ export function Contact() {
 
         <div className="reveal mt-16">
           <div className="inline-flex items-center gap-3 rounded-full bg-gold px-10 py-5 text-sm uppercase tracking-[0.25em] text-primary-foreground">
-            © 2026
+            amitojas44@gmail.com
           </div>
         </div>
       </div>
