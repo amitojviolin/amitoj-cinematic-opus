@@ -18,21 +18,21 @@ export function Contact() {
           the inbox is open.
         </p>
 
-        <div className="reveal mt-16 grid grid-cols-1 gap-4 sm:grid-cols-2">
-          <ContactCard
-            label="Email"
-            value="amitojas44@gmail.com"
-            href="mailto:amitojas44@gmail.com"
-          />
-          <ContactCard
-            label="Email"
-            value="amitojas44@gmail.com"
-            href="mailto:amitojas44@gmail.com"
-          />
+        <div className="reveal mt-16 grid grid-cols-1 gap-4 sm:grid-cols-3">
           <ContactCard
             label="Instagram"
             value="@amitojviolin"
             href="https://instagram.com/amitojviolin"
+          />
+          <ContactCard
+            label="Email"
+            value="amitojas44@gmail.com"
+            href="mailto:amitojas44@gmail.com"
+          />
+          <ContactCard
+            label="WhatsApp"
+            value="7906694211"
+            href="https://wa.me/917906694211"
           />
         </div>
 
