@@ -23,7 +23,7 @@ export function Hero() {
         <div className="max-w-3xl">
           <p className="mb-6 flex items-center gap-3 text-xs uppercase tracking-[0.4em] text-gold animate-fade-in">
             <span className="h-px w-10 bg-gold" />
-            Blending emotion, storytelling and cinematic sound through the violin - from Hindustani classical roots to orchestral cinema.
+            ​
           </p>
           <h1 className="font-display text-[clamp(3.5rem,11vw,9rem)] leading-[0.95] tracking-tight text-foreground animate-fade-in">
             Amitoj
@@ -33,8 +33,7 @@ export function Hero() {
             Violinist · Performer · Music Producer
           </p>
           <p className="mt-10 max-w-xl text-lg leading-relaxed text-foreground/80 animate-fade-in">
-            Blending emotion, storytelling and cinematic sound through the violin -
-            from Hindustani classical roots to orchestral cinema.
+            ​
           </p>
 
           <div className="mt-12 flex flex-wrap items-center gap-4 animate-fade-in">
