@@ -6,7 +6,6 @@ import { Performances } from "@/components/site/Performances";
 import { Stage } from "@/components/site/Stage";
 import { Achievements } from "@/components/site/Achievements";
 import { Services } from "@/components/site/Services";
-import { Gallery } from "@/components/site/Gallery";
 import { Social } from "@/components/site/Social";
 import { Contact } from "@/components/site/Contact";
 import { Footer } from "@/components/site/Footer";
@@ -52,7 +51,6 @@ function Index() {
         <Stage />
         <Achievements />
         <Services />
-        <Gallery />
         <Social />
         <Contact />
       </main>
