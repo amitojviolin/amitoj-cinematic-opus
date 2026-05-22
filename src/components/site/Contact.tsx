@@ -30,9 +30,9 @@ export function Contact() {
             href="#"
           />
           <ContactCard
-            label="WhatsApp"
-            value="Direct booking"
-            href="https://wa.me/919999999999"
+            label="Contact"
+            value="© 2026"
+            href="#"
           />
         </div>
 
