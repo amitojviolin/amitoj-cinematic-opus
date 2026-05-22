@@ -27,7 +27,7 @@ export function Nav() {
       <div className="mx-auto flex max-w-7xl items-center justify-between px-6">
         <a href="#top" className="group flex items-center gap-3">
           <span className="font-display text-xl tracking-wider text-gold">AS</span>
-          <span className="hidden text-xs uppercase tracking-[0.3em] text-muted-foreground sm:inline">
+          <span className="hidden uppercase tracking-[0.3em] text-muted-foreground sm:inline text-xs">
             Amitoj Singh
           </span>
         </a>
