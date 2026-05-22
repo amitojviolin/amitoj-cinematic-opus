@@ -7,9 +7,9 @@ import studio from "@/assets/studio.jpg";
 
 const perfs = [
   { img: stage, tag: "Live", title: "Cinematic Concert Set", meta: "Stage · 2024" },
-  { img: violin, tag: "Classical", title: "Raga Yaman — Alaap", meta: "Hindustani · Studio" },
+  { img: violin, tag: "Classical", title: "Raga Yaman - Alaap", meta: "Hindustani · Studio" },
   { img: hands, tag: "Cinematic", title: "Pirates of the Caribbean", meta: "Cover · Orchestral" },
-  { img: crowd, tag: "Bollywood", title: "Tum Hi Ho — Reimagined", meta: "Live · 2024" },
+  { img: crowd, tag: "Bollywood", title: "Tum Hi Ho - Reimagined", meta: "Live · 2024" },
   { img: bow, tag: "Fusion", title: "East Meets West", meta: "Original · Single" },
   { img: studio, tag: "Production", title: "Studio Sessions Vol. I", meta: "Original · 2024" },
 ];
@@ -30,7 +30,7 @@ export function Performances() {
             Where every string <em className="text-gradient-gold">tells a story</em>
           </h2>
           <p className="mt-6 text-base text-muted-foreground">
-            A curated reel of moments — from candlelit classical sets to roaring stage finales.
+            A curated reel of moments - from candlelit classical sets to roaring stage finales.
           </p>
         </div>
 

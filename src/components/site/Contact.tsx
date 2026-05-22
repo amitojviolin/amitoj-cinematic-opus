@@ -13,7 +13,7 @@ export function Contact() {
           Let's create <br /> something <em className="text-gradient-gold">beautiful</em>
         </h2>
         <p className="reveal mt-8 text-lg leading-relaxed text-foreground/70">
-          For bookings, collaborations or simply a conversation about music —
+          For bookings, collaborations or simply a conversation about music -
           <br className="hidden md:block" />
           the inbox is open.
         </p>

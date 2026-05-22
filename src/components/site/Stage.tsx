@@ -1,7 +1,7 @@
 const events = [
   { year: "2024", title: "Darya Band", desc: "Lead violinist for collaborative live sets blending Hindustani textures with contemporary band arrangements." },
   { year: "2023", title: "Black Pearl Band", desc: "Featured strings across stage performances and recorded original compositions." },
-  { year: "2023", title: "Delhi University — National Stage", desc: "Multiple appearances across DU's flagship cultural circuit and inter-college festivals." },
+  { year: "2023", title: "Delhi University - National Stage", desc: "Multiple appearances across DU's flagship cultural circuit and inter-college festivals." },
   { year: "2022", title: "Cinematic Live Showcase", desc: "Orchestral re-interpretations of film themes performed for live audiences." },
   { year: "Ongoing", title: "Creative Collaborations", desc: "Studio sessions, fusion experiments and cross-genre artistic projects with emerging musicians." },
 ];

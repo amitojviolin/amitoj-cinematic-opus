@@ -1,5 +1,5 @@
 const items = [
-  ["Prabhakar", "Prayag Sangeet Samiti — Hindustani Violin"],
+  ["Prabhakar", "Prayag Sangeet Samiti - Hindustani Violin"],
   ["National", "Featured competition performances"],
   ["DU Circuit", "Multiple wins across Delhi University events"],
   ["Recognized", "Creative & musical accolades"],
@@ -21,7 +21,7 @@ export function Achievements() {
             </h2>
           </div>
           <p className="max-w-md text-sm text-muted-foreground">
-            Awards and titles matter — but the moments behind them matter more.
+            Awards and titles matter - but the moments behind them matter more.
           </p>
         </div>
 
