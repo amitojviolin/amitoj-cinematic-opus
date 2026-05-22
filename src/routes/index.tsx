@@ -15,13 +15,13 @@ import { useReveal } from "@/hooks/use-reveal";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "Amitoj Singh — Violinist · Performer · Music Producer" },
+      { title: "Amitoj Singh - Violinist · Performer · Music Producer" },
       {
         name: "description",
         content:
           "Amitoj Singh is a violinist blending Hindustani classical, Bollywood and cinematic music. Live performances, studio sessions and bookings.",
       },
-      { property: "og:title", content: "Amitoj Singh — Cinematic Violinist" },
+      { property: "og:title", content: "Amitoj Singh - Cinematic Violinist" },
       {
         property: "og:description",
         content:

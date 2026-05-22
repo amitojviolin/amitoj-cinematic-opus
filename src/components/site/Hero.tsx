@@ -6,7 +6,7 @@ export function Hero() {
       <div className="absolute inset-0">
         <img
           src={heroImg}
-          alt="Amitoj Singh — violinist on stage under cinematic light"
+          alt="Amitoj Singh - violinist on stage under cinematic light"
           className="h-full w-full object-cover animate-ken-burns"
           width={1920}
           height={1280}
@@ -33,7 +33,7 @@ export function Hero() {
             Violinist · Performer · Music Producer
           </p>
           <p className="mt-10 max-w-xl text-lg leading-relaxed text-foreground/80 animate-fade-in">
-            Blending emotion, storytelling and cinematic sound through the violin —
+            Blending emotion, storytelling and cinematic sound through the violin -
             from Hindustani classical roots to orchestral cinema.
           </p>
 

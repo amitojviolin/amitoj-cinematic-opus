@@ -26,7 +26,7 @@ export function Social() {
               <span className="text-gradient-gold">@amitojviolin</span>
             </h2>
             <p className="mt-6 max-w-md text-lg leading-relaxed text-foreground/75">
-              New reels every week — covers, classical pieces, behind-the-scenes from
+              New reels every week - covers, classical pieces, behind-the-scenes from
               stages and the studio.
             </p>
             <a

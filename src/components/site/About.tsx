@@ -42,12 +42,12 @@ export function About() {
             <p>
               Trained for over twelve years in the lineage of Hindustani classical
               violin, Amitoj earned the <span className="text-gold">Prabhakar</span> from
-              Prayag Sangeet Samiti — a foundation that still shapes every note he draws.
+              Prayag Sangeet Samiti - a foundation that still shapes every note he draws.
             </p>
             <p>
               From there, the journey opened outward. Bollywood ballads,
               western classical, sweeping cinematic themes like <em>Pirates of the Caribbean</em>,
-              fusion sets on live stages, and original production work in the studio —
+              fusion sets on live stages, and original production work in the studio -
               each genre is a new dialect for the same emotional language.
             </p>
             <p className="text-foreground/60">
