@@ -25,14 +25,14 @@ export function Contact() {
             href="https://instagram.com/amitojviolin"
           />
           <ContactCard
-            label="Year"
-            value="© 2026"
-            href="#"
+            label="Email"
+            value="amitojas44@gmail.com"
+            href="mailto:amitojas44@gmail.com"
           />
           <ContactCard
-            label="Contact"
-            value="© 2026"
-            href="#"
+            label="Instagram"
+            value="@amitojviolin"
+            href="https://instagram.com/amitojviolin"
           />
         </div>
 
