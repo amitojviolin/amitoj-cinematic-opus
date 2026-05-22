@@ -3,9 +3,7 @@ import { Nav } from "@/components/site/Nav";
 import { Hero } from "@/components/site/Hero";
 import { About } from "@/components/site/About";
 import { Performances } from "@/components/site/Performances";
-import { Stage } from "@/components/site/Stage";
 import { Achievements } from "@/components/site/Achievements";
-import { Services } from "@/components/site/Services";
 import { Social } from "@/components/site/Social";
 import { Contact } from "@/components/site/Contact";
 import { Footer } from "@/components/site/Footer";
@@ -48,9 +46,7 @@ function Index() {
         <Hero />
         <About />
         <Performances />
-        <Stage />
         <Achievements />
-        <Services />
         <Social />
         <Contact />
       </main>
